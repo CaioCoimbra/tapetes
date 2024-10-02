@@ -1,0 +1,255 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: black;
+}
+
+@media (max-width: 600px){
+    
+    #header__img{
+        display: none;
+    }
+
+    #header__socialmedia{
+        display: none;
+    }
+
+    #header__img--link{
+        display: none;
+    }
+
+    #header__img--space{
+        height: 0;
+        width: 0;
+    }
+
+    nav {
+        justify-content: center;
+    }
+
+    #nav__list{
+        padding: 0 !important;
+    }
+
+    main{
+        margin: 0px 15px;
+        min-height: 600px !important;
+    }
+
+    .main__nav--text{
+        padding: 0px 20px;
+    }
+
+    .main__nav--title{
+        padding: 0px 20px;
+    }
+
+    .main__nav--list{
+        padding: 0px 20px !important;
+    }
+
+}
+
+header{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    background-image: linear-gradient(rgb(29, 29, 29), rgb(61, 61, 61));
+    color: white;
+}
+
+#header__logo{
+    display: flex;
+    align-self: flex-start;
+    margin-bottom: -10px;
+    height: 117px;
+    width: fit-content;
+}
+
+#header__index{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.945);
+}
+
+#header__title{
+    height: 107px;
+    margin-bottom: -10px;
+}
+
+#header__socialmedia{
+    padding-right: 96px;
+}
+
+.header__img{
+    height: 60px;
+    width: 60px;
+}
+
+hr{
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    background-image: linear-gradient(rgb(29, 29, 29), rgb(61, 61, 61));
+    height: 60px;
+}
+
+#nav__list{
+    display: flex;
+    list-style-type: none;
+    grid-auto-flow: row;
+    gap: 10px;
+    margin: 5px 0px;
+    padding-left: 10px;
+}
+
+.nav__list--item{
+    text-align: center;
+    width: 90px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+    margin: 0;
+    font-size: larger;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.nav__list--item:hover{
+    width: 120px;
+    transition: 0.5s;
+}
+
+.nav__list--link{
+    text-decoration: none;
+}
+
+h2{
+    font-size: xx-large;
+}
+
+aside{
+    display: flex;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 10px;
+    padding-bottom: 30px;
+    min-height: 500px;
+}
+
+.main__list{
+    display: flex;
+    list-style-type: none;
+    grid-auto-flow: row;
+    gap: 10px;
+    margin: 5px 0px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+}
+
+#main__list--pages{
+    align-content: flex-start;
+}
+
+.main__list--item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px;
+    margin: 0;
+    font-size: larger;
+    border-radius: 10px;
+    width: 150px;
+    height: 100px;
+    border: 2px solid black;
+    font-weight: bolder;
+}
+
+.main__list--link{
+    text-decoration: none;
+    color: black;
+}
+
+.main__nav{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    min-height: 500px;
+    padding: 30px 0px 60px;
+    justify-content: flex-start;
+}
+
+.main__nav--title{
+    display: flex;
+    height: fit-content;
+    justify-content: center;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 25px;
+    max-width: 480px;
+}
+
+.main__nav--text{
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.main__nav--list{
+    list-style-type: none;
+    margin: 0;
+    font-size: 20px;
+    padding: 0;
+}
+
+#main__nav--link{
+    padding-bottom: 30px;
+}
+
+#invisible{
+    border-color: white;
+}
+
+#carbrands{
+    width: 75px;
+    height: 75px;
+}
+
+footer{
+    display: flex;
+    background-image: linear-gradient(rgb(61, 61, 61), rgb(29, 29, 29));
+    padding: 5px 0px 5px 0px;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.959);
+    font-size: 13px;
+}
+
+.footer__element--block{
+    display: block;
+    height: fit-content;
+    max-width: 500px;
+    margin: 10px;
+}
+
+.footer__element--text{
+    margin: 0px;
+    text-align: center;
+}
+
