@@ -6,6 +6,11 @@ body{
 
 @media (max-width: 600px){
     
+
+    header{
+        justify-content: center !important;
+    }
+
     #header__img{
         display: none;
     }
@@ -19,8 +24,7 @@ body{
     }
 
     #header__img--space{
-        height: 0;
-        width: 0;
+        display: none;
     }
 
     nav {
@@ -80,8 +84,9 @@ header{
     margin-bottom: -10px;
 }
 
-#header__socialmedia{
-    margin-right: 96px;
+
+#header__img--space{
+    margin-right: 91px;
 }
 
 .header__img{
