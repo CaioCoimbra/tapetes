@@ -44,6 +44,18 @@ body{
         min-height: 600px !important;
     }
 
+    .main__content{
+        padding: 0px !important;
+    }
+
+    #main__img--img1{
+        margin-right: 0px !important;
+    }
+    
+    #main__img--img2{
+        margin-left: 0px !important;
+    }
+
     .main__nav--text{
         padding: 0px 20px;
     }
@@ -151,7 +163,7 @@ aside{
 main{
     display: flex;
     justify-content: flex-start;
-    max-width: 1000px;
+    max-width: 1150px;
     margin: auto;
     text-align: center;
     background-color: white;
@@ -160,6 +172,23 @@ main{
     padding-bottom: 30px;
     min-height: 500px;
     flex-direction: column;
+}
+
+.main__content{
+    padding: 0px 75px;
+}
+
+.main__img{
+    width: 400px;
+    border: 1px black solid;
+}
+
+#main__img--img1{
+    margin-right: 10px;
+}
+
+#main__img--img2{
+    margin-left: 10px;
 }
 
 .main__list{
